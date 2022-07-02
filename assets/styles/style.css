@@ -1,10 +1,9 @@
 * {
-    /* border: 1px solid red;  */
     margin: 0px;
     padding: 0px;
 }
 
-#beginning {
+.beginning {
     height: 51px;
     line-height: 51px;
     background: #00486D;
@@ -373,7 +372,7 @@ a:hover {
 .opinions {
     grid-column: 2/3;
     grid-row: 2/3;
-    margin-top: 80px;
+    margin: 80px 50px 0 50px;
     font-family: 'DM Serif Text';
     font-style: normal;
     font-weight: 400;
@@ -406,7 +405,6 @@ a:hover {
 
 .articles {
     display: grid;
-    margin-bottom: 155px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto 260px 78px 113px 80px 155px;
     background: #E5E5E5
@@ -471,7 +469,95 @@ a:hover {
     grid-row: 5/6;
     padding-left: 54px;
 }
-
 .another-link img {
     margin-left: 15px;
+}
+
+#advice {
+    align-items: center;
+    text-align: center;
+    background: #E4ECF0;
+    padding: 176px 0 176px 0;;
+}
+
+#advice p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 42px;
+    color: #00486D;
+}
+#advice a {
+    width: 234px;
+    margin-left: 603px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    background: #00486D;
+}
+
+.address {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 120px 0 133px 85px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 35px;
+    color: #99B6C5;
+}
+ 
+.to-send-mail {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding-top: 119px;
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+    vertical-align: middle;
+}
+
+.social-network {
+    padding-top: 64px;
+}
+
+input {
+    background: #99B6C5;
+    border: 1px solid #99B6C5;
+    border-radius: 2px; 
+    width: 315px;
+    height: 56px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 35px;
+    color: #00486D;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+form{
+    margin-top: 23px;
+}
+
+form *{
+    vertical-align: middle;
+}
+
+form button {
+    position: relative;
+    left: -55px;
+}
+
+.end {
+    background: #002B41;
 }
